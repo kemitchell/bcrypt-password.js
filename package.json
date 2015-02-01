@@ -29,5 +29,5 @@
     "test": "NODE_ENV=test mocha",
     "travis-ci": "npm run pre-commit"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
