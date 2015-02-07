@@ -4,7 +4,7 @@
     "email": "kyle@kemitchell.com",
     "url": "http://kemitchell.com/"
   },
-  "bugs": "https://github.com/commonform/bcrypt-password/issues",
+  "bugs": "https://github.com/kemitchell/bcrypt-password.js/issues",
   "dependencies": {
     "bcrypt": "^0.8.1"
   },
@@ -15,13 +15,13 @@
     "jshint": "^2.6.0",
     "mocha": "^2.1.0"
   },
-  "homepage": "https://github.com/commonform/bcrypt-password",
+  "homepage": "https://github.com/kemitchell/bcrypt-password.js",
   "license": "Apache-2.0",
   "main": "bcrypt-password.js",
   "name": "bcrypt-password",
   "repository": {
     "type": "git",
-    "url": "https://github.com/commonform/bcrypt-password.git"
+    "url": "https://github.com/kemitchell/bcrypt-password.js.git"
   },
   "scripts": {
     "pre-commit": "npm run lint && npm run test",
