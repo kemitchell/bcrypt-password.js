@@ -11,6 +11,7 @@
   "description": "bcrypt password hash and check functions",
   "devDependencies": {
     "chai": "^1.10.0",
+    "check-versions": "0.0.1",
     "jscs": "^1.10.0",
     "jshint": "^2.6.0",
     "mocha": "^2.1.0"
@@ -25,7 +26,7 @@
   },
   "scripts": {
     "pre-commit": "npm run lint && npm run test",
-    "lint": "jscs bcrypt-password.js test && jshint bcrypt-password.js test",
+    "lint": "check-versions --check-module && jscs bcrypt-password.js test && jshint bcrypt-password.js test",
     "test": "NODE_ENV=test mocha",
     "travis-ci": "npm run pre-commit"
   },

@@ -13,3 +13,5 @@ exports.hash = function(password, callback) {
 exports.check = function(password, hash, callback) {
   bcrypt.compare(password, hash, callback);
 };
+
+exports.version = '1.0.1';
