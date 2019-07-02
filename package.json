@@ -1,10 +1,7 @@
 {
-  "author": {
-    "name": "Kyle E. Mitchell",
-    "email": "kyle@kemitchell.com",
-    "url": "http://kemitchell.com/"
-  },
-  "bugs": "https://github.com/kemitchell/bcrypt-password.js/issues",
+  "name": "bcrypt-password",
+  "version": "1.0.2",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com)",
   "dependencies": {
     "bcrypt": "^3.0.6"
   },
@@ -16,19 +13,13 @@
     "jshint": "^2.6.0",
     "mocha": "^6.1.4"
   },
-  "homepage": "https://github.com/kemitchell/bcrypt-password.js",
   "license": "Apache-2.0",
   "main": "bcrypt-password.js",
-  "name": "bcrypt-password",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kemitchell/bcrypt-password.js.git"
-  },
+  "repository": "kemitchell/bcrypt-password.js",
   "scripts": {
     "pre-commit": "npm run lint && npm run test",
     "lint": "check-versions --check-module && jscs bcrypt-password.js test && jshint bcrypt-password.js test",
     "test": "NODE_ENV=test mocha",
     "travis-ci": "npm run pre-commit"
-  },
-  "version": "1.0.2"
+  }
 }
