@@ -10,7 +10,7 @@
   },
   "description": "bcrypt password hash and check functions",
   "devDependencies": {
-    "chai": "^1.10.0",
+    "chai": "^4.2.0",
     "check-versions": "0.0.1",
     "jscs": "^1.10.0",
     "jshint": "^2.6.0",
