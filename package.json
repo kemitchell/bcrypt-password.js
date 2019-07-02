@@ -9,6 +9,9 @@
   "devDependencies": {},
   "license": "Apache-2.0",
   "repository": "kemitchell/bcrypt-password.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "pre-commit": "npm run lint && npm run test",
     "test": "NODE_ENV=test node test.js",
