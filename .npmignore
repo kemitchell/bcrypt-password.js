@@ -1,9 +1,0 @@
-*.tgz
-.editorconfig
-.gitignore
-.jscsrc
-.jshintignore
-.jshintrc
-.npmignore
-.travis.yml
-test/
