@@ -9,7 +9,6 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "check-versions": "^1.0.0",
-    "jscs": "^3.0.7",
     "jshint": "^2.6.0",
     "mocha": "^6.1.4"
   },
