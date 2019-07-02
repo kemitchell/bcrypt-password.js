@@ -11,7 +11,7 @@
   "description": "bcrypt password hash and check functions",
   "devDependencies": {
     "chai": "^4.2.0",
-    "check-versions": "0.0.1",
+    "check-versions": "^1.0.0",
     "jscs": "^1.10.0",
     "jshint": "^2.6.0",
     "mocha": "^2.1.0"
