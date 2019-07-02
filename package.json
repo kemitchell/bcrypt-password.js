@@ -6,7 +6,7 @@
   },
   "bugs": "https://github.com/kemitchell/bcrypt-password.js/issues",
   "dependencies": {
-    "bcrypt": "^0.8.1"
+    "bcrypt": "^3.0.6"
   },
   "description": "bcrypt password hash and check functions",
   "devDependencies": {
