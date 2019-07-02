@@ -4,7 +4,9 @@ exports.saltRounds = 10
 
 exports.hash = function (password, callback) {
   bcrypt.genSalt(exports.saltRounds, function (error, salt) {
+    if (error) return callback(error)
     bcrypt.hash(password, salt, function (error, digest) {
+      if (error) return callback(error)
       callback(null, digest)
     })
   })
