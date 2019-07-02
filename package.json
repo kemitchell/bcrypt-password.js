@@ -8,7 +8,6 @@
   "description": "bcrypt password hash and check functions",
   "devDependencies": {},
   "license": "Apache-2.0",
-  "main": "bcrypt-password.js",
   "repository": "kemitchell/bcrypt-password.js",
   "scripts": {
     "pre-commit": "npm run lint && npm run test",
