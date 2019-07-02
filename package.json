@@ -14,7 +14,7 @@
     "check-versions": "^1.0.0",
     "jscs": "^3.0.7",
     "jshint": "^2.6.0",
-    "mocha": "^2.1.0"
+    "mocha": "^6.1.4"
   },
   "homepage": "https://github.com/kemitchell/bcrypt-password.js",
   "license": "Apache-2.0",
