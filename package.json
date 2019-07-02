@@ -6,9 +6,7 @@
     "bcrypt": "^3.0.6"
   },
   "description": "bcrypt password hash and check functions",
-  "devDependencies": {
-    "check-versions": "^1.0.0"
-  },
+  "devDependencies": {},
   "license": "Apache-2.0",
   "main": "bcrypt-password.js",
   "repository": "kemitchell/bcrypt-password.js",
