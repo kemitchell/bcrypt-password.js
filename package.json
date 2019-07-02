@@ -7,15 +7,13 @@
   },
   "description": "bcrypt password hash and check functions",
   "devDependencies": {
-    "check-versions": "^1.0.0",
-    "jshint": "^2.6.0"
+    "check-versions": "^1.0.0"
   },
   "license": "Apache-2.0",
   "main": "bcrypt-password.js",
   "repository": "kemitchell/bcrypt-password.js",
   "scripts": {
     "pre-commit": "npm run lint && npm run test",
-    "lint": "check-versions --check-module && jscs bcrypt-password.js test && jshint bcrypt-password.js test",
     "test": "NODE_ENV=test node test.js",
     "travis-ci": "npm run pre-commit"
   }
