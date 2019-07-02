@@ -1,6 +1,6 @@
 {
   "name": "bcrypt-password",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com)",
   "dependencies": {
     "bcrypt": "^3.0.6"
